@@ -18,5 +18,13 @@ class Main {
       }
     };
     //we will play with compareTo here
+    char c = 'a';
+    int ascii = (int)c;
+
+    String s="Dog";
+    String s1="dogb";
+    String s2="dogg";
+    int res = s1.compareTo(s2);
+    System.out.println(res);
   }
 }
